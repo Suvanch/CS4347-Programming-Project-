@@ -1,4 +1,5 @@
 package Main;
+
 import javax.swing.*;
 import javax.swing.border.EmptyBorder; 
 import java.awt.*;
@@ -95,7 +96,7 @@ public class Frame extends JFrame implements ActionListener{
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				if(e.getSource() == manage ) {
-					//ManageWindow mgmt_window = new ManageWindow();
+					ManagmentWindow mgmt_window = new ManagmentWindow();
 				}	
 			}			
 		});
