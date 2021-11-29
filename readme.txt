@@ -1,4 +1,4 @@
-﻿The SQL Library was implemented using Java Swing, MySQL, and MySQL Workbench. Also, this project was implemented on a Windows bases OS.
+﻿The SQL Library was implemented using Java Swing, MySQL, and MySQL Workbench. Also, this project was implemented on a Windows based OS.
 
 
 In order to be able to run the application, first add all the .java files from the zip onto an existing or new project that was created on a Java IDE.
