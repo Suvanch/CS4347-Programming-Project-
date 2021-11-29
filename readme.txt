@@ -10,7 +10,7 @@ should be named Value. Copy the address that is under the Value column and paste
 File Explorer. After the files have been uploaded, run the SQL script again and the records will be added to the database. After the records have been added,
 in all the  DriverManager.getConnection() methods for all the .java files, make sure that the root password for MySQL has been set to the password that was 
 created for the root on the last argument for the method call, i.e. DriverManager.getConnection("jdbc:mysql://localhost:3306/library?autoReconnect=true", "root", "Thecrow_69"); 
-(password is in bold). After setting the password on the method, make sure that the mysql-connector-java-8.0.27.jar file has been added onto the referenced
+(password is in last argument). After setting the password on the method, make sure that the mysql-connector-java-8.0.27.jar file has been added onto the referenced
 libraries on to java project. The .jar file can be added by going into the Add External Archives for the Build Path option for the Java project. Once the 
 .jar file has been added, the application can be run by executing the Main.java file. If the MySQL does not want to connect or there is an issue with the
 connection, go into the Services App on Windows to manually restart or start up the MYSQL.
